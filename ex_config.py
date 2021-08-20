@@ -5,32 +5,32 @@ from hell_config import Config
 
 class Development(Config):
   # get these values from my.telegram.org. 
-  APP_ID = 6    # 6 is a placeholder. Fill your 6 digit api id
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"   # replace this with your api hash
+  APP_ID = 6512145    # 6 is a placeholder. Fill your 6 digit api id
+  API_HASH = "8dfdd3ea0bf4ee3177470dbf355451c1"   # replace this with your api hash
 
   # the name to display in your alive message.
   # If not filled anything then default value is I'm Hêll.
-  YOUR_NAME = "I'm Hêll"
+  YOUR_NAME = "SATYA"
 
   # create any PostgreSQL database.
   # I recommend to use elephantsql and paste that link here
-  DB_URI = "Your value"
+  DB_URI = "postgres://hqcsmyixqbhghm:b4f25c5c69e576b82d1f68170b6bb3826448fe7b2523a68b4627255fc7f635a5@ec2-54-156-85-145.compute-1.amazonaws.com:5432/d4ldvd9q1j3irl"
 
   # After cloning the repo and installing requirements...
   # Do `python string.py` and fill the on screen prompts.
   # String session will be saved in your saved message of telegram.
   # Put that string here.
-  HELLBOT_SESSION = "Your value"
+  HELLBOT_SESSION = "1BVtsOIgBuyIpwt4UIGaXjj4hZa0XaJBxE3fylzgbo3SsupapAhQXmiw8KZguOcqwMD8p8hmZ6JZ6ekp4hasy5YCGAMdpLMsuB9rDkhSL5EXhVA6i1XJNd9y-9mvDUak7hZbWemjg_gHPI5Pnb82Rg1XfpV77zVY9r1U_2CLKFot3K6pGDbzBDPn6SVJlJfFZfDJJ28G8G68Mam9e7iTF0fwx6aMiNZCkELqCx1Edn_Rm4g1qFCwKgag322N4XqDEdgXtTdKlrEz6tqtR4r4xwFmTWHxaPpvib4vsyrglYnR9cFxVn0nmpRS_4aEglRtZp2DavOD3s1qocjAlaVPnxSLBmKRQbAE="
 
   # Create a bot in @BotFather
   # And fill the following values with bot token and username.
-  BOT_TOKEN = "Your value" #token
-  BOT_USERNAME = "Your value" #username
+  BOT_TOKEN = "1989037296:AAFt_PGNz0kjsQ1OPsLklDiUykRh1-iSats" #token
+  BOT_USERNAME = "catuserbottestsatyabot" #username
 
   # Create a private group and add rose bot to it.
   # and type /id and paste that id here.
   # replace that -100 with that group id.
-  LOGGER_ID = -100
+  LOGGER_ID = -1001571245178
 
   # Custom Command Handler. 
   HANDLER = "."
