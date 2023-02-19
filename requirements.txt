@@ -75,3 +75,4 @@ wikipedia
 youtube-search-python
 youtube_dl
 youtube-search
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
