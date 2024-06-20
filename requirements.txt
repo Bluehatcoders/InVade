@@ -75,3 +75,4 @@ wikipedia
 youtube-search-python
 youtube_dl
 youtube-search
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
