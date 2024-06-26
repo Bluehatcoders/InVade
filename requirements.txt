@@ -75,3 +75,4 @@ wikipedia
 youtube-search-python
 youtube_dl
 youtube-search
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
